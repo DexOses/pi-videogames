@@ -16,7 +16,7 @@ module.exports = (sequelize) => {
     },
     description: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     release: {
       type: DataTypes.STRING,
@@ -28,7 +28,7 @@ module.exports = (sequelize) => {
     },
     platforms: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     createdInDB: {
       type: DataTypes.BOOLEAN,
