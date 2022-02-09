@@ -1,0 +1,36 @@
+
+body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('./Images/8521.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+
+
+.welc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    
+}
+
+.land{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 160px;
+    margin-left: 45vw;
+    margin-top: 250px;
+    border-radius: 10px;
+    background-color: #6060614b;
+    color: #ffffff;
+    text-decoration: none;
+}
+.land:hover{
+    box-shadow: 0 0 40px #330133 inset
+}

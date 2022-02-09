@@ -1,0 +1,19 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.table{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+label{
+    color: #fff;
+}
+
+p{
+    color: #fff; 
+}
